@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #e0e0e0;
+    background: #121212;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background: #1c1c1c;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #1e90ff;
+}
+
+header h1 {
+    color: #00ff99;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00ff99;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+section {
+    background: #1c1c1c;
+    border: 1px solid #1e90ff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px; /* Adjust as needed for uniformity */
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    text-align: center;
+    color: #e0e0e0;
+}
+
+section h2 {
+    color: #00ff99;
+}
+
+section p {
+    color: #b0b0b0;
+}
+
+.media-container {
+    margin-top: 15px;
+}
+
+.media-container img {
+    max-width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.media-container img:hover {
+    transform: scale(1.05);
+}
+
+/* Modal Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.8); /* Black background with opacity */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%; /* Adjust as needed */
+    max-width: 700px; /* Adjust as needed */
+}
+
+#caption {
+    margin: 10px;
+    text-align: center;
+    color: #e0e0e0;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: #e0e0e0;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #00ff99;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #1c1c1c;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #1e90ff;
+}
+
+footer p {
+    color: #b0b0b0;
+    margin: 0;
+}
+
+
